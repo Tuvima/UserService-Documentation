@@ -1,0 +1,692 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Tuvima Working/Source Code/Tuvima/UserService/UserAPI/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.APIResponses.ApiResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.APIResponses.ApiResponse-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.APIResponses.ApplicationExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.APIResponses.ApplicationExceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.APIResponses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.APIResponses.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Configurations.ConfigureConnections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Configurations.ConfigureConnections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Configurations.ServicesConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Configurations.ServicesConfiguration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Configurations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.CommonsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.CommonsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PermissionsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PermissionsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PermissionsMappingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PermissionsMappingsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonasController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonasController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PortalsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PortalsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.RolesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.RolesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.RolesMappingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.RolesMappingsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ErrorHandlerMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ErrorHandlerMiddleware.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPermissionsMappingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPermissionsMappingRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPermissionsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPermissionsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPortalRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPortalRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IRolesMappingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IRolesMappingRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IRolesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IRolesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Migrations.personaId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Migrations.personaId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PermissionStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PermissionStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PermissionsMappingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PermissionsMappingModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PermissionsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PermissionsModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaCountyModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaCountyModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaStateModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaStateModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PortalModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PortalModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.RoleStatusModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.RoleStatusModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.RolesMappingModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.RolesMappingModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.RolesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.RolesModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PermissionsMappingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PermissionsMappingRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PermissionsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PermissionsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PortalRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PortalRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.Repository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.RolesMappingRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.RolesMappingRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.RolesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.RolesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.PermissionsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.PermissionsData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.PersonaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.PersonaData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.RolesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.RolesData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceDataSeeder.DataSeeder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceDataSeeder.DataSeeder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceDataSeeder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceDataSeeder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceInterfaces.IDataSeeder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceInterfaces.IDataSeeder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceInterfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceInterfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Controllers.CommonsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Controllers.CommonsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.DBContexts.DbOperationsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.DBContexts.DbOperationsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.DBContexts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.DBContexts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Models.PersonaModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Models.PersonaModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Repositories.PersonaRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Repositories.PersonaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UserAPI.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UserAPI.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

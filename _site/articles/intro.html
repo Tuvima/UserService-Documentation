@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction: </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction: ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Tuvima/UserService/blob/main/UserAPI/Documentation/articles/intro.md/#L1">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="introduction">Introduction:</h1>
+
+<p>User Service API for Managing Portal, User Persona, User Roles, and User Permissions</p>
+<p>The User Service API is a powerful tool designed to manage various aspects of user management within a web portal. This API leverages the Entity Framework Core Code First Approach to seamlessly create the necessary database schema and pre-populate data through data seeding. By adopting this approach, the API ensures a smooth integration between the application and the underlying database, providing a solid foundation for user management.</p>
+<p>The User Service API enables CRUD (Create, Read, Update, Delete) operations through the use of API controllers and the Repository Pattern. This pattern abstracts the data access logic, allowing for code reuse, maintainability, and testability. With this pattern, developers can easily perform CRUD operations on entities such as portal, user persona, user roles, and user permissions. The API controllers provide a convenient and structured interface for interacting with these entities, while the Repository Pattern handles the underlying data operations.</p>
+<p>By utilizing the User Service API, developers can efficiently manage user-related functionality within a portal, including creating and managing user accounts, assigning user roles and permissions, and defining user personas. The Entity Framework Core Code First Approach ensures that the database schema accurately reflects the defined entities, while data seeding populates the database with initial data, streamlining the setup process.</p>
+<p>In summary, the User Service API combines the power of Entity Framework Core Code First Approach, data seeding, API controllers, and the Repository Pattern to provide a robust solution for managing portal, user persona, user roles, and user permissions. It simplifies and streamlines user management operations, enabling developers to build secure and scalable web applications.</p>
+<h1 id="why-tuvima-community-service">Why Tuvima Community Service?</h1>
+<p>At Tuvima Community Service, we prioritize user privacy and anonymity while ensuring a seamless registration process. When you register as a user, we only require your actual identity and credentials for verification purposes. Rest assured that this information will not be shared with any portals or third parties.</p>
+<p>Instead, we operate on a Persona-based system, where your Persona is what will be shared with portals. A Persona represents a virtual identity associated with your user account. It allows you to interact with portals and participate in various activities while keeping your actual identity completely anonymous.</p>
+<p>With this approach, you can confidently join multiple portals and engage with different communities without the risk of your real identity being disclosed. Your anonymity and privacy are our utmost priority, empowering you to explore and contribute to various platforms within the Tuvima Community Service while maintaining complete control over your personal information.</p>
+<h1 id="what-is-portal-in-tuvima-community-service">What is Portal in Tuvima Community Service?</h1>
+<p>The Portal entity plays a pivotal role within the User Service API as it represents a web application portal. As the central hub for user management and associated functionalities, the Portal entity serves as the foundation for organizing and administering user-related operations. With the Portal entity, developers can establish a cohesive and streamlined user management system, enabling efficient control and access to various features and resources within the web application. By leveraging the capabilities of the Portal entity, the User Service API facilitates seamless user management and empowers administrators to efficiently oversee and administer the web application portal.</p>
+<h4 id="examples">Examples:</h4>
+<blockquote>
+<p>Portal <a href="https://www.bbc.com">BBC</a> that will be integrated with <a href="https://www.tuvima.com"><strong>Tuvima</strong></a></p>
+</blockquote>
+<blockquote>
+<p>Portal <a href="https://www.foxnews.com">FoxNews</a>  that will be integrated with <a href="https://www.tuvima.com"><strong>Tuvima</strong></a></p>
+</blockquote>
+<h1 id="portal-integration-with-tuvima">Portal Integration with <a href="https://www.tuvima.com"><strong>Tuvima</strong></a></h1>
+<p>Tuvima Community Service provides seamless integration with renowned portals such as BBC and FoxNews, among others. This integration allows users to connect their Tuvima accounts with these portals, enhancing their overall experience and enabling them to access a wide range of features and resources.</p>
+<p>By integrating with BBC, FoxNews, and other portals, Tuvima Community Service opens up a world of possibilities for users. They can stay updated with the latest news, engage in discussions, and contribute to the vibrant communities within these portals. The integration ensures a smooth and secure connection, enabling users to leverage their Tuvima persona while interacting with these renowned platforms.</p>
+<p>It's important to note that during the integration process, Tuvima Community Service strictly follows privacy protocols and respects user preferences. Your actual identity remains undisclosed, and only your Tuvima persona is shared with the integrated portals. This ensures that you can participate in these portals anonymously, maintaining the level of privacy and control that Tuvima Community Service is committed to providing.</p>
+<p>With the integration of BBC, FoxNews, and other portals, Tuvima Community Service empowers users to engage, learn, and share their perspectives within a diverse ecosystem of platforms while ensuring their anonymity and safeguarding their personal information.</p>
+<h1 id="what-is-persona-in-tuvima-community-service">What is Persona in Tuvima Community Service?</h1>
+<p>User Persona within the Portal context refers to the representation of different user roles or profiles that interact with the web application. It is an essential concept in the User Service API, enabling the customization of user experiences and access privileges based on specific roles or personas. User Persona allows administrators to define and manage distinct user profiles, each with its unique set of permissions and privileges within the Portal. By associating users with specific personas, the User Service API enables personalized interactions, tailored functionalities, and enhanced security measures within the web application. The User Persona feature empowers administrators to create a dynamic and flexible user ecosystem, catering to the diverse needs and responsibilities of different user roles within the Portal.</p>
+<h1 id="unique-persona-at-every-individual-portal">Unique Persona at Every Individual Portal</h1>
+<p>Tuvima Community Service offers users the ability to maintain a unique and anonymous persona across individual portals. When you participate in different portals through Tuvima Community Service, your real identity remains completely undisclosed. Instead, only your persona details and persona activity will be shared with the respective portals.</p>
+<p>This approach ensures that your true identity remains private and secure while allowing you to fully engage with the portals of your choice. Each portal you join will recognize you by your persona, providing a consistent and personalized experience tailored to your preferences.</p>
+<p>With Tuvima Community Service, you can confidently explore various portals, share your insights, and connect with communities of interest, all while maintaining anonymity and control over your personal information. Enjoy the freedom to express yourself and participate actively in the online world without compromising your privacy.</p>
+<h1 id="personalized-dashboard">Personalized Dashboard</h1>
+<p>Tuvima Community Service provides users with a personalized dashboard that serves as a central hub for managing their online presence across various portals. Within the dashboard, users can create and customize their persona and related profile specific to each individual portal they are registered on.</p>
+<p>The dashboard offers a range of interactive features, allowing users to actively engage in discussions, express their opinions, and interact with content. Users can participate in discussions by liking, disliking, agreeing, disagreeing, and more, contributing to the dynamic exchange of ideas within the communities they are part of.</p>
+<p>Furthermore, the dashboard enables users to keep track of their activities across different portals, providing a comprehensive overview of their interactions, contributions, and engagements. It serves as a convenient tool for users to monitor their involvement and stay updated on the latest developments within their registered portals.</p>
+<p>Additionally, users have the ability to connect with friends and join groups, fostering a sense of community and collaboration. They can create their own discussions, initiate conversations, and contribute to building a vibrant and interactive ecosystem within Tuvima Community Service.</p>
+<p>Through the user dashboard, Tuvima Community Service empowers users to have a personalized and engaging experience across multiple portals. It offers the tools and features necessary to actively participate, connect with others, and stay informed, enhancing the overall online journey for every user within the community.</p>
+<h1 id="portal-administrator-dashboard">Portal Administrator Dashboard</h1>
+<p>Tuvima Community Service provides a comprehensive Portal Administrator Dashboard designed specifically for administrators overseeing portals within the community. This dashboard equips administrators with powerful tools and functionalities to efficiently manage portals, discussions, users, and content.</p>
+<p>Administrators have full control over the management of portals, allowing them to configure portal settings, customize the appearance, and define the overall structure. They can create and moderate discussions, ensuring that the platform maintains a productive and respectful environment for users to engage in meaningful conversations.</p>
+<p>Furthermore, administrators have the authority to manage user accounts, including the ability to activate or deactivate users as needed. They can also implement temporary suspensions for users who violate community guidelines, ensuring the maintenance of a safe and inclusive space.</p>
+<p>The Portal Administrator Dashboard grants administrators the capability to manage roles and permissions for individual users. They can assign specific roles and permissions based on user responsibilities and access requirements within the portal. This fine-grained control enables administrators to maintain a well-organized user ecosystem with appropriate access levels and privileges.</p>
+<p>With this comprehensive set of tools and functionalities, the Portal Administrator Dashboard empowers administrators to effectively govern and nurture their portals within Tuvima Community Service. It enables them to maintain a vibrant and engaging platform while ensuring compliance with community guidelines and providing a positive user experience for all participants.</p>
+<h1 id="tuvima-administrator-dashboard">Tuvima Administrator Dashboard</h1>
+<p>Tuvima Community Service provides a robust Administrator Dashboard specifically designed for Tuvima administrators, offering comprehensive management capabilities across all portals and users within the community. This centralized dashboard empowers administrators to efficiently oversee and manage the entire ecosystem.</p>
+<p>Within the Tuvima Administrator Dashboard, administrators have the authority to manage all portals hosted within the community. They can configure global settings, monitor portal activities, and ensure consistent user experiences across the platform. The dashboard provides a holistic view of all portals, enabling administrators to streamline operations and maintain uniformity in terms of policies and guidelines.</p>
+<p>Furthermore, administrators can manage all users registered on Tuvima Community Service, regardless of the specific portal they are associated with. This includes the ability to view and manage user personas on different portals, ensuring adherence to community standards and guidelines. Administrators can oversee user activities, histories, and interactions to promote a safe and inclusive environment.</p>
+<p>The Tuvima Administrator Dashboard also offers advanced role and permission management functionalities. Administrators can assign and modify roles and permissions for users across portals, tailoring access levels and capabilities to align with their responsibilities and requirements.</p>
+<p>By providing an extensive range of features and functionalities, the Tuvima Administrator Dashboard empowers administrators to efficiently manage all portals, users, user personas, roles, permissions, and activities within the Tuvima Community Service. It offers a comprehensive suite of tools to ensure smooth operations, maintain community standards, and foster a positive and engaging experience for all participants.</p>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Tuvima/UserService/blob/main/UserAPI/Documentation/articles/intro.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
