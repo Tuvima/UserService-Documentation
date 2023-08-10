@@ -75,6 +75,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PermissionStatusController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PermissionStatusController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Controllers.PermissionsController.yml",
       "output": {
         ".html": {
@@ -95,6 +105,116 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaCountriesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaCountriesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaCountyController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaCountyController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaFieldLinksController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaFieldLinksController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaFieldLookupsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaFieldLookupsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaFieldTiersController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaFieldTiersController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaFieldsMetaDataController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaFieldsMetaDataController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaFieldsTypesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaFieldsTypesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaGendersController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaGendersController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaOccupationsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaOccupationsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaStateController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaStateController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.PersonaStatusController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.PersonaStatusController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Controllers.PersonasController.yml",
       "output": {
         ".html": {
@@ -109,6 +229,16 @@
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Controllers.PortalsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Controllers.RoleStatusController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Controllers.RoleStatusController.html"
         }
       },
       "version": ""
@@ -155,6 +285,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPermissionStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPermissionStatusRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Interfaces.IPermissionsMappingRepository.yml",
       "output": {
         ".html": {
@@ -175,10 +315,230 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaCountries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaCountries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaCountriesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaCountriesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaCounty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaCounty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaCountyRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaCountyRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLinks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLinks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLinksRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLinksRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLookups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLookups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLookupsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldLookupsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldTiers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldTiers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldTiersRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldTiersRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsMetaData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsMetaData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsMetaDataRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsMetaDataRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsTypesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaFieldsTypesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaGenders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaGenders.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaGendersRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaGendersRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaOccupations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaOccupations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaOccupationsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaOccupationsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Interfaces.IPersonaRepository.yml",
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Interfaces.IPersonaRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaStateRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaStateRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IPersonaStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IPersonaStatusRepository.html"
         }
       },
       "version": ""
@@ -199,6 +559,26 @@
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Interfaces.IRepository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IRoleStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IRoleStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Interfaces.IRoleStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Interfaces.IRoleStatusRepository.html"
         }
       },
       "version": ""
@@ -229,6 +609,16 @@
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Migrations.InitialMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Migrations.InitialMigration.html"
         }
       },
       "version": ""
@@ -285,6 +675,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaCountriesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaCountriesModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Models.PersonaCountyModel.yml",
       "output": {
         ".html": {
@@ -295,10 +695,80 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaFieldLinksModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaFieldLinksModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaFieldLookupsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaFieldLookupsModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaFieldTiersModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaFieldTiersModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaFieldsMetaDataModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaFieldsMetaDataModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaFieldsTypesModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaFieldsTypesModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaGendersModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaGendersModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Models.PersonaModel.yml",
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Models.PersonaModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Models.PersonaOccupationsModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Models.PersonaOccupationsModel.html"
         }
       },
       "version": ""
@@ -375,6 +845,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PermissionStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PermissionStatusRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Repositories.PermissionsMappingRepository.yml",
       "output": {
         ".html": {
@@ -395,6 +875,116 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaCountriesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaCountriesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaCountyRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaCountyRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaFieldLinksRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaFieldLinksRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaFieldLookupsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaFieldLookupsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaFieldTiersRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaFieldTiersRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaFieldsMetaDataRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaFieldsMetaDataRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaFieldsTypesRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaFieldsTypesRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaGendersRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaGendersRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaOccupationsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaOccupationsRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaStateRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaStateRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.PersonaStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.PersonaStatusRepository.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.Repositories.PortalRepository.yml",
       "output": {
         ".html": {
@@ -409,6 +999,16 @@
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.Repositories.Repository-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.Repositories.RoleStatusRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.Repositories.RoleStatusRepository.html"
         }
       },
       "version": ""
@@ -445,6 +1045,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.CountriesData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.CountriesData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.GendersData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.GendersData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/User.Microservice.ServiceData.PermissionsData.yml",
       "output": {
         ".html": {
@@ -459,6 +1079,16 @@
       "output": {
         ".html": {
           "relative_path": "api/User.Microservice.ServiceData.PersonaData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/User.Microservice.ServiceData.PersonaOccupationsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/User.Microservice.ServiceData.PersonaOccupationsData.html"
         }
       },
       "version": ""
@@ -609,6 +1239,26 @@
       "output": {
         ".html": {
           "relative_path": "api/UserAPI.Repositories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YourNamespace.Controllers.PersonaFieldsTypesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YourNamespace.Controllers.PersonaFieldsTypesController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YourNamespace.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YourNamespace.Controllers.html"
         }
       },
       "version": ""

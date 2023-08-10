@@ -79,7 +79,7 @@
 
   <h1 id="User_Microservice_Models_PersonaModel" data-uid="User.Microservice.Models.PersonaModel" class="text-break">
     Class PersonaModel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -87,7 +87,8 @@
   <dl><dt>Assembly</dt><dd>User.Microservice.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>Persona Model</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -146,16 +147,17 @@
 
   <h3 id="User_Microservice_Models_PersonaModel_CreatedBy" data-uid="User.Microservice.Models.PersonaModel.CreatedBy">
   CreatedBy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L117"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Created By</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[StringLength(100)]
 [Display(Name = &quot;Created By&quot;)]
-public string CreatedBy { get; set; }</code></pre>
+public string? CreatedBy { get; set; }</code></pre>
   </div>
 
 
@@ -179,15 +181,16 @@ public string CreatedBy { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_CreatedOn" data-uid="User.Microservice.Models.PersonaModel.CreatedOn">
   CreatedOn
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Created On</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Display(Name = &quot;Created On&quot;)]
-public DateTime CreatedOn { get; set; }</code></pre>
+public DateTime? CreatedOn { get; set; }</code></pre>
   </div>
 
 
@@ -196,7 +199,7 @@ public DateTime CreatedOn { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -211,10 +214,11 @@ public DateTime CreatedOn { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_FirstName" data-uid="User.Microservice.Models.PersonaModel.FirstName">
   FirstName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>First Name</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -240,14 +244,48 @@ public string? FirstName { get; set; }</code></pre>
 
 
 
+  <a id="User_Microservice_Models_PersonaModel_Genders_" data-uid="User.Microservice.Models.PersonaModel.Genders*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_Genders" data-uid="User.Microservice.Models.PersonaModel.Genders">
+  Genders
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona Gender Id Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaGenderId&quot;)]
+public PersonaGendersModel? Genders { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PersonaGendersModel.html">PersonaGendersModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="User_Microservice_Models_PersonaModel_LastName_" data-uid="User.Microservice.Models.PersonaModel.LastName*"></a>
 
   <h3 id="User_Microservice_Models_PersonaModel_LastName" data-uid="User.Microservice.Models.PersonaModel.LastName">
   LastName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Last Name</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -277,10 +315,11 @@ public string? LastName { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_ModifiedBy" data-uid="User.Microservice.Models.PersonaModel.ModifiedBy">
   ModifiedBy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L130"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Modified By</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -310,10 +349,11 @@ public string? ModifiedBy { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_ModifiedOn" data-uid="User.Microservice.Models.PersonaModel.ModifiedOn">
   ModifiedOn
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L137"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Modified On</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -342,10 +382,11 @@ public DateTime? ModifiedOn { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaAddress" data-uid="User.Microservice.Models.PersonaModel.PersonaAddress">
   PersonaAddress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L110"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Address</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -371,14 +412,113 @@ public string? PersonaAddress { get; set; }</code></pre>
 
 
 
+  <a id="User_Microservice_Models_PersonaModel_PersonaCountries_" data-uid="User.Microservice.Models.PersonaModel.PersonaCountries*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaCountries" data-uid="User.Microservice.Models.PersonaModel.PersonaCountries">
+  PersonaCountries
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona Country ID Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaCountryID&quot;)]
+public PersonaCountriesModel? PersonaCountries { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PersonaCountriesModel.html">PersonaCountriesModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="User_Microservice_Models_PersonaModel_PersonaCountryID_" data-uid="User.Microservice.Models.PersonaModel.PersonaCountryID*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaCountryID" data-uid="User.Microservice.Models.PersonaModel.PersonaCountryID">
+  PersonaCountryID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona Country ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? PersonaCountryID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="User_Microservice_Models_PersonaModel_PersonaCounty_" data-uid="User.Microservice.Models.PersonaModel.PersonaCounty*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaCounty" data-uid="User.Microservice.Models.PersonaModel.PersonaCounty">
+  PersonaCounty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona County ID Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaCountyID&quot;)]
+public PersonaCountyModel? PersonaCounty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PersonaCountyModel.html">PersonaCountyModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="User_Microservice_Models_PersonaModel_PersonaCountyID_" data-uid="User.Microservice.Models.PersonaModel.PersonaCountyID*"></a>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaCountyID" data-uid="User.Microservice.Models.PersonaModel.PersonaCountyID">
   PersonaCountyID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona County ID</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -406,10 +546,11 @@ public string? PersonaAddress { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaDateOfBirth" data-uid="User.Microservice.Models.PersonaModel.PersonaDateOfBirth">
   PersonaDateOfBirth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Date of Birth</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -439,17 +580,17 @@ public string? PersonaDateOfBirth { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaEmailAddress" data-uid="User.Microservice.Models.PersonaModel.PersonaEmailAddress">
   PersonaEmailAddress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Email Address</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Persona Email Address is required.&quot;)]
-[Display(Name = &quot;Persona Email Address&quot;)]
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Persona Email Address&quot;)]
 [StringLength(200)]
-public string PersonaEmailAddress { get; set; }</code></pre>
+public string? PersonaEmailAddress { get; set; }</code></pre>
   </div>
 
 
@@ -469,20 +610,19 @@ public string PersonaEmailAddress { get; set; }</code></pre>
 
 
 
-  <a id="User_Microservice_Models_PersonaModel_PersonaGender_" data-uid="User.Microservice.Models.PersonaModel.PersonaGender*"></a>
+  <a id="User_Microservice_Models_PersonaModel_PersonaGenderId_" data-uid="User.Microservice.Models.PersonaModel.PersonaGenderId*"></a>
 
-  <h3 id="User_Microservice_Models_PersonaModel_PersonaGender" data-uid="User.Microservice.Models.PersonaModel.PersonaGender">
-  PersonaGender
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaGenderId" data-uid="User.Microservice.Models.PersonaModel.PersonaGenderId">
+  PersonaGenderId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Gender Id</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Persona Gender&quot;)]
-[StringLength(10)]
-public string? PersonaGender { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? PersonaGenderId { get; set; }</code></pre>
   </div>
 
 
@@ -491,7 +631,7 @@ public string? PersonaGender { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -506,10 +646,11 @@ public string? PersonaGender { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaID" data-uid="User.Microservice.Models.PersonaModel.PersonaID">
   PersonaID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona ID Composit Primary Key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -539,10 +680,11 @@ public string PersonaID { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaImageUrl" data-uid="User.Microservice.Models.PersonaModel.PersonaImageUrl">
   PersonaImageUrl
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Image URL</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -572,10 +714,11 @@ public string? PersonaImageUrl { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaNickName" data-uid="User.Microservice.Models.PersonaModel.PersonaNickName">
   PersonaNickName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L82"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Nickname</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -605,16 +748,16 @@ public string? PersonaNickName { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaOccupation" data-uid="User.Microservice.Models.PersonaModel.PersonaOccupation">
   PersonaOccupation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Occupation ID Foreign Key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Persona Occupation&quot;)]
-[StringLength(100)]
-public string? PersonaOccupation { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaOccupationID&quot;)]
+public PersonaOccupationsModel? PersonaOccupation { get; set; }</code></pre>
   </div>
 
 
@@ -623,7 +766,72 @@ public string? PersonaOccupation { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="User.Microservice.Models.PersonaOccupationsModel.html">PersonaOccupationsModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="User_Microservice_Models_PersonaModel_PersonaOccupationID_" data-uid="User.Microservice.Models.PersonaModel.PersonaOccupationID*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaOccupationID" data-uid="User.Microservice.Models.PersonaModel.PersonaOccupationID">
+  PersonaOccupationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona Occupation ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? PersonaOccupationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="User_Microservice_Models_PersonaModel_PersonaState_" data-uid="User.Microservice.Models.PersonaModel.PersonaState*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaState" data-uid="User.Microservice.Models.PersonaModel.PersonaState">
+  PersonaState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona State ID Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaStateID&quot;)]
+public PersonaStateModel? PersonaState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PersonaStateModel.html">PersonaStateModel</a></dt>
     <dd></dd>
   </dl>
 
@@ -638,10 +846,11 @@ public string? PersonaOccupation { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaStateID" data-uid="User.Microservice.Models.PersonaModel.PersonaStateID">
   PersonaStateID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona State ID</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -665,14 +874,48 @@ public string? PersonaOccupation { get; set; }</code></pre>
 
 
 
+  <a id="User_Microservice_Models_PersonaModel_PersonaStatus_" data-uid="User.Microservice.Models.PersonaModel.PersonaStatus*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_PersonaStatus" data-uid="User.Microservice.Models.PersonaModel.PersonaStatus">
+  PersonaStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Persona Status ID Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonaStatusID&quot;)]
+public PersonaStatusModel? PersonaStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PersonaStatusModel.html">PersonaStatusModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="User_Microservice_Models_PersonaModel_PersonaStatusID_" data-uid="User.Microservice.Models.PersonaModel.PersonaStatusID*"></a>
 
   <h3 id="User_Microservice_Models_PersonaModel_PersonaStatusID" data-uid="User.Microservice.Models.PersonaModel.PersonaStatusID">
   PersonaStatusID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Persona Status ID</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -696,21 +939,53 @@ public string? PersonaOccupation { get; set; }</code></pre>
 
 
 
+  <a id="User_Microservice_Models_PersonaModel_Portal_" data-uid="User.Microservice.Models.PersonaModel.Portal*"></a>
+
+  <h3 id="User_Microservice_Models_PersonaModel_Portal" data-uid="User.Microservice.Models.PersonaModel.Portal">
+  Portal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Portal ID Foreign Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PortalID&quot;)]
+public PortalModel? Portal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="User.Microservice.Models.PortalModel.html">PortalModel</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="User_Microservice_Models_PersonaModel_PortalID_" data-uid="User.Microservice.Models.PersonaModel.PortalID*"></a>
 
   <h3 id="User_Microservice_Models_PersonaModel_PortalID" data-uid="User.Microservice.Models.PersonaModel.PortalID">
   PortalID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Portal ID Composit Primary Key</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Key]
-[StringLength(200)]
-[Display(Name = &quot;Portal ID&quot;)]
-public string? PortalID { get; set; }</code></pre>
+public string PortalID { get; set; }</code></pre>
   </div>
 
 
@@ -734,17 +1009,17 @@ public string? PortalID { get; set; }</code></pre>
 
   <h3 id="User_Microservice_Models_PersonaModel_TuvimaEmailAddress" data-uid="User.Microservice.Models.PersonaModel.TuvimaEmailAddress">
   TuvimaEmailAddress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L61"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Tuvima Email Address</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required(ErrorMessage = &quot;Tuvima Email Address is required.&quot;)]
-[Display(Name = &quot;Tuvima Email Address&quot;)]
+    <pre><code class="lang-csharp hljs">[Display(Name = &quot;Tuvima Email Address&quot;)]
 [StringLength(200)]
-public string TuvimaEmailAddress { get; set; }</code></pre>
+public string? TuvimaEmailAddress { get; set; }</code></pre>
   </div>
 
 
@@ -768,7 +1043,7 @@ public string TuvimaEmailAddress { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/Tuvima/UserService/blob/main/UserAPI/UserAPI/Models/PersonaModel.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
         
